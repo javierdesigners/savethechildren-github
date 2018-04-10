@@ -1,0 +1,1047 @@
+@charset "utf-8";
+/* CSS Document */
+/* Author: Javier Zavaleta */
+
+/*********************************************************************
+**** RESET CSS *******************************************************
+*********************************************************************/
+@import url("reset.css");
+
+/*********************************************************************
+**** FONT-FACE *******************************************************
+*********************************************************************/
+@font-face{
+  font-family: 'GothamLight';
+  src: url('fonts/gothamlight.eot');
+  src: url('fonts/gothamlight.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gothamlight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'GothamBold';
+  src: url('fonts/gothambold.eot');
+  src: url('fonts/gothambold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gothambold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'GothamBook';
+  src: url('fonts/gothambook.eot');
+  src: url('fonts/gothambook.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gothambook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'GothamMedium';
+  src: url('fonts/gothammedium.eot');
+  src: url('fonts/gothammedium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gothammedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*********************************************************************
+*** CSS STYLES *******************************************************
+*********************************************************************/
+body{
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********************************************************************
+*** PAGE: INTRO ******************************************************
+*********************************************************************/
+.logoSave{
+  background: transparent url(images/logo_top.jpg) no-repeat 0% 0%;
+  display: block;
+  height: 48px;
+  width: 186px;
+}
+
+/* - SOCIAL - */
+.modSocial{
+/*  background: orange;*/
+  font-family: "GothamLight", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  display: block;
+  margin-left: 410px;
+  overflow: hidden;
+  width: 145px;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+}
+
+.modSocial span{
+  line-height: 27px;
+  display: block;
+  float: left;
+  padding-right: 10px;
+}
+
+.modSocial a{
+  font-size: 1px;
+  color: #fff;
+  display: block;
+  float: left;
+  height: 27px;
+  width: 27px;
+  outline: none;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
+.icoFacebook{
+  background: transparent url(images/ico_facebook.png) no-repeat 0% 0%;
+}
+
+.icoTwitter{
+  background: transparent url(images/ico_twitter.png) no-repeat 50% 50%;
+  margin-left: 10px;
+}
+
+/* - INTRO - */
+.pageIntro{
+/*  background: green;*/
+  display: block;
+  height: 400px;
+  width: 420px;
+  margin-top: -200px;
+/*  margin-left: -470px;*/
+  margin-left: -540px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pageIntro p{
+  font-family: "GothamLight", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #fff;
+  line-height: 16px;
+  display: block;
+  text-align: justify;
+}
+
+.logoProblemas{
+  background: transparent url(images/logo_problemas.png) no-repeat 0% 0%;
+  font-size: 1px;
+  font-weight: normal;
+  color: #fff;
+  display: block;
+  height: 180px;
+  text-indent: -9999px;
+}
+
+.subtitle{
+  background: #f7a200;
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 26px;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.selectOptions{
+  display: block;
+  padding-top: 50px;
+}
+
+.selectOptions span{
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #f7a200;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.selectOptions a{
+  background: #f7a200;
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #2f162c;
+  line-height: 40px;
+  display: block;
+  float: left;
+  margin-right: 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+  -webkit-transition: background .5s ease 0s;
+  -moz-transition: background .5s ease 0s;
+  transition: background .5s ease 0s;
+}
+
+.selectOptions a:hover{
+  background: #edeadf;
+}
+
+/* - INFO - */
+.modInfo{
+/*  background: green;*/
+  font-family: "GothamLight", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  display: block;
+  height: 120px;
+  width: 158px;
+  margin-top: 80px;
+  margin-left: 394px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.icoInfo{
+  background: transparent url(images/ico_info.png) no-repeat 50% 0%;
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #f7a200;
+  display: block;
+  outline: none;
+  padding-top: 52px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* - FOOTER - */
+.footIntro{
+/*  background: green;*/
+  font-family: Verdana;
+  font-size: 11px;
+  color: #fff;
+  display: block;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.footIntro span{
+  display: block;
+  float: left;
+  padding-left: 25px;
+}
+
+.footIntro a{
+  color: #fff;
+  display: block;
+  float: right;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.footIntro a:hover{
+  text-decoration: underline;
+}
+
+/*********************************************************************
+*** PAGE: PREGUNTAS **************************************************
+*********************************************************************/
+.logoSaveInner{
+  background: transparent url(images/logo_top.jpg) no-repeat 0% 0%;
+  display: block;
+  height: 48px;
+  width: 186px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pageInner{
+/*  background: #e0e0e0;*/
+  display: block;
+  margin: 0 auto;
+  width: 1130px;
+}
+
+.socialInner{
+  display: block;
+  padding: 30px 0px;
+}
+
+.icoFb{
+  background: transparent url(images/ico_facebook02.png) no-repeat 50% 50%;
+  font-size: 1px;
+  color: #fff;
+  display: block;
+  float: right;
+  height: 28px;
+  width: 28px;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
+.icoTw{
+  background: transparent url(images/ico_twitter02.png) no-repeat 50% 50%;
+  font-size: 1px;
+  color: #fff;
+  display: block;
+  margin-left: 10px;
+  float: right;
+  height: 28px;
+  width: 28px;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
+/* - PREGUNTAS - */
+.wrpQuestions{
+  display: block;
+  padding-bottom: 50px;
+}
+
+.title{
+  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #898989;
+  display: block;
+  padding-bottom: 50px;
+}
+
+.title h3{
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #323232;
+  font-weight: normal;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.title p{
+  background: transparent url(images/line.jpg) no-repeat 0% 100%;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.title p span{
+  color: #c8212a;
+}
+
+.itemQuestion{
+  display: block;
+  border-top: 1px #d8d8d8 solid;
+  padding-top: 70px;
+}
+
+.itQuestion{
+  display: block;
+}
+
+.nroQuestion{
+/*  background: pink;*/
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  color: #f7a200;
+  display: block;
+  float: left;
+  width: 160px;
+}
+
+.optQuestion{
+  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+  color: #323232;
+  display: block;
+  float: left;
+  width: 790px;
+  text-align: justify;
+}
+
+.itAnswer{
+  display: block;
+  padding-right: 180px;
+}
+
+.listAnswer{
+  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #323232;
+  line-height: 21px;
+  display: block;
+  padding: 35px 0px 20px 220px;
+}
+
+.listAnswer label{
+  cursor: pointer;
+  display: block;
+}
+
+.btnNext{
+/*  background: green;*/
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+  color: #323232;
+  display: block;
+  float: right;
+  outline: none;
+  text-align: right;
+  text-decoration: none;
+  width: 120px;
+}
+
+/*********************************************************************
+*** FOOTER ***********************************************************
+*********************************************************************/
+.wrpFoot{
+  background: #323232;
+  display: block;
+}
+
+.footInner{
+  font-family: Verdana;
+  font-size: 13px;
+  color: #fff;
+  line-height: 16px;
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: 1130px;
+}
+
+.savethechildren{
+  background: transparent url(images/savethechildren.png) no-repeat 0% 0%;
+  display: block;
+  float: left;
+  margin-top: 50px;
+  height: 40px;
+  width: 198px;
+}
+
+.address{
+  display: block;
+  padding-top: 54px;
+  text-align: right;
+}
+
+.address a{
+  color: #dc2025;
+  text-decoration: none;
+}
+
+.address a:hover{
+  text-decoration: underline;
+}
+
+/*********************************************************************
+*** POPUP: RECOMENDACIÓN *********************************************
+*********************************************************************/
+.bgPopup{
+  background: transparent url(images/bg_popup.png) repeat 0% 0%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logoPopup{
+  background: transparent url(images/logo_top.jpg) no-repeat 0% 0%;
+  display: block;
+  height: 48px;
+  width: 186px;
+}
+
+.wrpRecom{
+  background: transparent url(images/ico_recomendacion.png) no-repeat 0% 0%;
+  display: block;
+  height: 120px;
+  width: 670px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.icoRecom{
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  display: block;
+  padding: 10px 0px 0px 140px;
+}
+
+.icoRecom h3{
+  font-weight: normal;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.icoRecom a{
+  color: #f7a200;
+  text-decoration: none;
+}
+
+.icoRecom a:hover{
+  text-decoration: underline;
+}
+
+/* - POPUP: NO QUIERO SEGUIR - */
+.contentProblem{
+/*  background: purple;*/
+  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  height: 160px;
+  width: 720px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contentProblem h3{
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.contentProblem a{
+  font-family: "GothamBold", Arial, Helvetica, sans-serif;
+  color: #dc2025;
+  text-decoration: none;
+}
+
+/*********************************************************************
+*** PAGE: FINAL ******************************************************
+*********************************************************************/
+.boxFinal{
+  color: #edeadf;
+  display: block;
+  border: 2px #f7a200 solid;
+  height: 300px;
+  width: 880px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.wrpFinal{
+  display: block;
+  padding: 40px;
+}
+
+.wrpFinal p{
+  font-family: "GothamMedium", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  display: block;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.socialFinal{
+/*  background: purple;*/
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+}
+
+.socialFinal span{
+  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  display: block;
+  float: left;
+  padding-right: 20px;
+}
+
+.btnFb{
+  background: transparent url(images/ico_facebook.png) no-repeat 50% 50%;
+  font-size: 1px;
+  color: #fff;
+  display: block;
+  float: left;
+  height: 28px;
+  width: 28px;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
+.btnTw{
+  background: transparent url(images/ico_twitter.png) no-repeat 50% 50%;
+  font-size: 1px;
+  color: #fff;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  height: 28px;
+  width: 28px;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+
+.logoFinal{
+  background: transparent url(images/logo_save.png) no-repeat 0% 0%;
+  display: block;
+  height: 61px;
+  width: 298px;
+  margin-left: -149px;
+  margin-bottom: -240px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+/*********************************************************************
+*** CLEAR FIX ********************************************************
+*********************************************************************/
+.clear{
+  clear: both;
+}
+
+/*********************************************************************
+*** VERSIÓN: TABLET / MOVIL (MEDIA-QUERIES) **************************
+*********************************************************************/
+@media (width: 1366px) and (max-height: 668px){
+  
+  
+  
+}
+
+@media (min-height: 800px){
+  
+  .wrpFoot{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+}
+
+@media (max-width: 1150px){
+  
+  .modSocial{
+    margin-left: 0;
+    left: auto;
+    right: 25px;
+  }
+  
+  .pageIntro{
+    margin-left: 0;
+    left: 25px;
+  }
+  
+  .modInfo{
+    margin-left: 0;
+    left: auto;
+    right: 25px;
+  }
+  
+  .pageInner{
+    width: 80%;
+  }
+  
+  .optQuestion{
+    float: none;
+    padding-left: 160px;
+    width: auto;
+  }
+  
+  .itAnswer{
+    padding-right: 0px;
+  }
+  
+  .footInner{
+    width: 80%;
+  }
+  
+}
+
+@media (max-width: 900px){
+  
+  .boxFinal{
+    width: 80%;
+  }
+  
+  .wrpFinal{
+    padding: 30px 30px 0px 30px;
+  }
+  
+  .wrpFinal p{
+    font-size: 20px;
+  }
+  
+}
+
+@media (max-width: 840px){
+  
+  .pageInner{
+    width: 90%;
+  }
+  
+  .footInner{
+    width: 90%;
+  }
+  
+}
+
+@media (max-width: 770px){
+  
+  .contentProblem{
+    font-size: 15px;
+    height: 160px;
+    width: 80%;
+  }
+  
+  .contentProblem h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  
+}
+
+@media (max-width: 720px){
+  
+  .nroQuestion{
+    font-size: 70px;
+    width: 120px;
+  }
+  
+  .optQuestion{
+    padding-left: 120px;
+  }
+  
+  .listAnswer{
+    padding: 35px 0px 20px 120px;
+  }
+  
+  .savethechildren{
+    background-size: cover;
+    height: 28px;
+    width: 140px;
+  }
+  
+  .footInner{
+    font-size: 11px;
+  }
+  
+}
+
+@media (max-width: 700px){
+  
+  .wrpRecom{
+    height: 140px;
+    width: 80%;
+  }
+  
+  .icoRecom{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .icoRecom h3{
+    padding-bottom: 10px;
+  }
+  
+}
+
+@media (max-width: 660px){
+  
+  .pageIntro{
+    float: left;
+    margin: 60px 0px 0px 25px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 340px;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  
+  .logoProblemas{
+    background-size: 250px 111px;
+    height: 130px;
+  }
+  
+  .subtitle{
+    font-size: 12px;
+  }
+  
+  .selectOptions{
+    padding-top: 30px;
+  }
+  
+  .modInfo{
+    margin: 0px 25px 0px 0px;
+    clear: both;
+    float: right;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  
+  .footIntro{
+    clear: both;
+    padding-top: 30px;
+    position: relative;
+    left: auto;
+    bottom: auto;
+  }
+  
+}
+
+@media (max-width: 630px){
+  
+  .wrpFinal p{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .socialFinal{
+    width: auto;
+  }
+  
+}
+
+@media (max-width: 580px){
+  
+  .contentProblem{
+    height: 240px;
+  }
+  
+}
+
+@media (max-width: 540px){
+  
+  .itemQuestion{
+    padding-top: 50px;
+  }
+  
+  .nroQuestion{
+    font-size: 50px;
+    width: 80px;
+  }
+  
+  .optQuestion{
+    font-size: 15px;
+    padding-left: 80px;
+  }
+  
+  .listAnswer{
+    font-size: 15px;
+    padding: 35px 0px 20px 80px;
+  }
+  
+  .footInner{
+    height: auto;
+    padding: 20px 0px;
+  }
+  
+  .savethechildren{
+    margin: 0 auto;
+    float: none;
+  }
+  
+  .address{
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 500px){
+  
+  .boxFinal{
+    height: 240px;
+  }
+  
+  .wrpFinal{
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .wrpFinal p{
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 10px;
+  }
+  
+  .socialFinal span{
+    font-size: 14px;
+    float: none;
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  .wrpSocial{
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 74px;
+  }
+  
+  .logoFinal{
+    background-size: cover;
+    margin-left: -100px;
+    margin-bottom: -194px;
+    height: 41px;
+    width: 200px;
+  }
+  
+}
+
+@media (max-width: 470px){
+  
+  .wrpRecom{
+    background: transparent url(images/ico_recomendacion.png) no-repeat 50% 0%;
+    background-size: 80px 80px;
+    height: 210px;
+    width: 90%;
+  }
+  
+  .icoRecom{
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 440px){
+  
+  .logoSave, .logoSaveInner{
+    background-size: 140px 36px;
+    height: 36px;
+    width: 140px;
+  }
+  
+  .modSocial{
+    top: 8px;
+    right: 15px;
+  }
+  
+  .pageIntro{
+    margin: 70px 0px 0px 15px;
+    width: 294px;
+  }
+  
+  .logoProblemas{
+    background-size: 200px 89px;
+    height: 100px;
+  }
+  
+  .subtitle{
+    font-size: 14px;
+    line-height: normal;
+    padding: 10px;
+    width: 190px;
+  }
+  
+  .selectOptions span{
+    font-size: 14px;
+  }
+  
+  .modInfo{
+    margin: 0px 15px 0px 0px;
+  }
+  
+  .footIntro{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  .footIntro span{
+    float: none;
+    padding-left: 0;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+  
+  .footIntro a{
+    float: none;
+    padding-right: 0;
+    text-align: center;
+  }
+  
+  .socialInner{
+    padding: 6px 0px 30px 0px;
+  }
+  
+  .title{
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  
+  .title h3{
+    font-size: 26px;
+  }
+  
+  .itemQuestion{
+    padding-top: 30px;
+  }
+  
+  .nroQuestion{
+    float: none;
+    width: auto;
+  }
+  
+  .optQuestion{
+    padding-left: 10px;
+  }
+  
+  .listAnswer{
+    padding: 35px 0px 25px 10px;
+  }
+  
+}
+
+@media (max-width: 380px){
+  
+  .modInfo{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
